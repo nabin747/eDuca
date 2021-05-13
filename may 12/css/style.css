@@ -1,0 +1,142 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main Style */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+h1,h2{
+    padding-bottom: 20px;
+
+}
+p{
+    margin: 10px 0;
+}
+/* utility class */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px ;
+}
+/* navbar */
+header{
+    background: #333;   
+}
+.top_bar{
+    background: #333;
+    color: #fff;
+    overflow: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 5vh;
+}
+#navbar{
+    /* background: rgba(51, 51, 51, 0.911); */
+    color: rgb(231, 219, 219);
+    overflow: auto;
+    height: 100%;
+
+}
+
+#navbar a{
+    color: #rgb(14, 5, 5);;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+    background: #444;
+    color: #f7c08a;
+}
+#navbar ul li a .current{
+    background: #444;
+    color: #f7c08a;
+}
+#main{
+    background: url(../image/4.jpg) no-repeat center center/cover;
+    height: 90vh;
+}
+.showcase .content{
+    color:#fff;
+    text-align: left;
+    padding-top: 10rem;
+}
+.showcase .content h2{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+.showcase .content h1{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase; 
+}
+.showcase .content .btn{
+    background-color: rgb(210, 153, 30);
+    padding:0.2rem;
+    color: #000;
+    font: 0.80rem bold;
+}
+.enroll{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    text-transform:uppercase;
+    color: #fff;
+    margin-top: 4rem;
+   
+}
+.enroll .entry {
+    background-color: rgba(20, 19, 19, 0.788);
+    width: 21.5rem;
+    height: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+.enroll .entry.icon .fas{
+    width: 1rem;
+    height: 1rem;
+ }
+.enroll .entry h3{
+    font-size: 1.5rem;
+}
+.enroll .entry a{
+    font-size: 0.75rem;
+    color: rgb(210, 153, 30);
+}
+
+
+
+
